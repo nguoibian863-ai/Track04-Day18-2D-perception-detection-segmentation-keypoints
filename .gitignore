@@ -1,11 +1,13 @@
 # Weights và dataset tự tải khi chạy notebook
 *.pt
+*.onnx
 datasets/
 
 # Kết quả train / file trung gian (sinh lại được)
 runs/
 runs_lab/
-autolabel/
+/autolabel/
+!submission/autolabel/
 tiger-pose-anat.yaml
 tiger-pose-mirror.yaml
 tiger-pose-mirror/
